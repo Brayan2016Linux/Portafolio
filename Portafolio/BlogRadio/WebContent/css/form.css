@@ -1,0 +1,106 @@
+#formulario {
+	width: 330px;
+	margin: 10 auto;
+	padding: 5px;
+	background-color: #FFF;
+	text-color: #000;
+	text-align: justify;
+	
+	-webkit-boder-radius: 5px; /*para chrome y safari*/
+	-moz-border-radius: 5px; /*para Firefox*/
+	-o-border-radius: 5px; /*para opera*/
+	border-radius: 5px; /*Estándar por defecto*/
+}
+
+.divinformation {
+	margin: 0 auto;
+	width: 350px;
+}
+
+fieldset {
+	width:270px;
+	-webkit-boder-radius: 5px; /*para chrome y safari*/
+	-moz-border-radius: 5px; /*para Firefox*/
+	-o-border-radius: 5px; /*para opera*/
+	border-radius: 5px; /*Estándar por defecto*/
+}
+
+legend {
+	font-size: 14px;
+	font-style: italic;
+	color: #999;
+}
+
+#divbutton {
+	width: 260px;
+	margin: 0 auto;
+}
+
+.button{
+    font-size:12px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:#0000FF;
+    width:120px;
+    height:25px;
+    
+    -webkit-boder-radius: 5px; /*para chrome y safari*/
+	-moz-border-radius: 5px; /*para Firefox*/
+	-o-border-radius: 5px; /*para opera*/
+	border-radius: 5px; /*Estándar por defecto*/
+	
+	/*degradados*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to (#CCC)); /*Chrome*/
+	background-image: -moz-linear-gradient(top center, #FFF, #CCC); /*Para FireFox*/
+	background-image: -o-linear-gradient(top, #FFF, #CCC); /*Para Opera*/
+	background-image: linear-gradient(top, #FFF, #CCC); /*El estándar por defecto*/
+} 
+
+#divlabel {
+  margin: .4em 0;
+}
+
+#divlabel label {
+  width: 50%;
+  float: left;
+}
+
+label {
+  /*alineación con el resto*/
+  display: block;
+  float: left;
+  padding-left: 15px;
+  text-indent: -15px;
+  margin: .4em 0 0 0;
+  
+  color:#999;
+  font-style: italic;
+  font-weight: bold;
+  font-size:12px;
+}
+
+input {
+	width: 270px;
+    height: 16px;
+    position: relative;
+    padding: 0;
+    margin: 5px;
+    float: left;
+    overflow: hidden;
+}
+
+textarea{
+	width: 270px;
+	float:left;
+	resize: none;
+}
+
+input:focus{
+  border: 2px solid #000;
+  background: #F3F3F3;
+  
+  -webkit-boder-radius: 5px; /*para chrome y safari*/
+  -moz-border-radius: 5px; /*para Firefox*/
+  -o-border-radius: 5px; /*para opera*/
+  border-radius: 5px; /*Estándar por defecto*/
+}

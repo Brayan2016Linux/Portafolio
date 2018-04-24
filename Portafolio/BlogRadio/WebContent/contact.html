@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<title>Blog Streaming Radio</title>
+		<link rel="stylesheet" type = "text/css" href="css/menu.css" />
+		<link rel="stylesheet" type = "text/css" href="css/body.css" />
+		<link rel="stylesheet" type = "text/css" href="css/header.css" />
+		<link rel="stylesheet" type = "text/css" href="css/footer.css" />
+		<link rel="stylesheet" type = "text/css" href="css/images.css" />
+		<link rel="stylesheet" type = "text/css" href="css/form.css" />
+	</head>
+
+	<body>
+		<div id = "maincontainer">
+			<header id = "site_head">
+				<img id ="headimage" alt="" border="0" src="images/head.png"/>
+				<p id = "followus">Follow us: 
+				<a href="#"><img id = "icons" alt="" src="images/face.png"/></a>
+				<a href="#"><img id = "icons" alt="" src="images/twit.png"/></a>
+				<a href="#"><img id = "icons" alt="" src="images/linkedin.png"/></a>
+				<a href="#"><img id = "icons" alt="" src="images/gogplus.png"/></a>
+				<a href="#"><img id = "icons" alt="" src="images/youtube.png"/></a>
+				</p>
+			</header>
+		
+			<nav id = "mainmenu">
+				<ul class = "vinietamain">
+					<li><a title="home" href="index.html">Home</a></li>
+					<li><a title="streaming" href="stream.html">Streaming</a></li>
+					<li><a title="audio" href="audio.html">Audio</a></li>
+					<li><a title="lessons" href="lessons.html">Lessons and Tips</a></li>
+					<li><a title="contact" href="#">Contact us</a></li>
+				</ul>
+			</nav>
+			<div align = "center">
+			
+				<div id="container">
+					<!-- Sección de contacto -->
+					<div id = "formulario">
+						<div class = "divinformation">
+						<form action="<?=$_SERVER['PHP_SELF']?>" method="post">
+							<fieldset>
+								<legend>Suggestion or Comments</legend>
+								<div id = "divlabel">
+    								<label>
+      									Nombre:
+      									<input name="nombre" type="text" />
+   									</label>
+   								</div>
+   								<div id = "divlabel">
+    								<label>
+      									Teléfono:
+      									<input name="telefono" type="text" />
+    								</label>
+    							</div>
+    							<div id = "divlabel">
+    								<label>
+      									Email:
+      									<input name="email" type="text" />
+    								</label>
+    							</div>
+    							<div id = "divlabel">
+   									<label>
+      									Mensaje:
+      								</label>
+      							</div>
+      								<label>
+      									<textarea name="mensaje" rows="6" cols="40"></textarea>
+    								</label>
+    							<div id="divbutton">
+    								<input class = "button" type="reset" value="Borrar" />
+    								<input class = "button" type="submit" value="Enviar" />
+    							</div>
+    						</fieldset>
+  						</form>
+  						</div>
+					</div>
+				</div>
+			</div>
+			
+			<br>
+			<footer id = "information">
+				<h2 class= "footer">Cultural Language Radio International, powered by PR-TEC &copy;</h2>
+			</footer>
+
+		</div>
+	</body>
+
+</html>
